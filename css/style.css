@@ -9,34 +9,44 @@ body {
     background-color: black;
 }
 .container {
-    width: 100%;
-    height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+    height: 100%;
     color: white;
     gap: 10px;
     display: flex;
-    flex-flow:row wrap;
-    align-content: space-between;
+    flex-wrap:wrap;
+    justify-content: space-between;
      
  
 }
  img {
-    
+    width: 100%;
+    object-fit: contain;
 }
 
-
-.box {
-   padding: 4rem 4rem;
+main {
+    height: calc(100% - 150px);
 }
+
 header {
     background-color: rgb(65, 62, 62);
+    height: 70px;
 }
 
 .schermi {
     
-    width: calc((100% / 7) - 20px);
-    height: calc((70vw / 7) - 20px);
-    position: relative;
-    border: 1px solid white;
-     display: flex;
+    width: calc((100% / 7) - 10px);
+    height: calc(50vw / 7);
+    flex: none;
+   border: 1px solid white;
+   position: relative;
+
+   
+     
   
+}
+footer {
+    background-color: rgb(65, 62, 62);
+    height: 80px;
 }
