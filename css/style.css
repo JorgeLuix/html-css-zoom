@@ -9,20 +9,30 @@ body {
     background-color: black;
 }
 .container {
-    width: 80vw;
+    width: 90vw;
     margin: 0 auto;
     height: 100%;
     color: white;
-    gap: 10px;
+    gap: 5px;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
+    padding-left: 2rem;
      
  
 }
- img {
-    width: 100%;
-    object-fit: contain;
+ .photo img {
+    width: 100%;  
+    position: absolute;
+    
+}
+
+.nome {
+    padding: 2px 2px;
+    position: absolute;
+    background-color: rgb(70, 68, 68);
+   bottom:1px;
+    left: 0px;
 }
 
 main {
@@ -32,15 +42,41 @@ main {
 header {
     background-color: rgb(65, 62, 62);
     height: 70px;
+    color: white;
+    margin-bottom: 4rem;
+}
+.navv-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: row;
+}
+.gallery {
+    background-color: rgb(56, 55, 55);
+  
+}
+ li,a{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.ul_1,.ul_2 ,.ul_3{
+    display: flex;
+    align-content: center;
+    
 }
 
 .schermi {
     
     width: calc((100% / 7) - 10px);
-    height: calc(50vw / 7);
-    flex: none;
+    height: calc(55vw / 7);
    border: 1px solid white;
    position: relative;
+   
 
    
      
@@ -49,4 +85,5 @@ header {
 footer {
     background-color: rgb(65, 62, 62);
     height: 80px;
+    margin-top: 2rem;
 }
