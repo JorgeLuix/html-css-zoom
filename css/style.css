@@ -87,9 +87,8 @@ button {
 .schermi {
     
     width: calc((100% / 7) - 10px);
-    height: calc(55vw / 7);
-   border: 1px solid white;
-   position: relative;    
+    border: 1px solid white;
+    position: relative;    
   
 }
 footer {
