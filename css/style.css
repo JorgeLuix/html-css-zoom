@@ -102,11 +102,11 @@ footer {
 
   }  
   i {
-  
+    color: white;
     align-content: center;
   }
 
-  .fa-share-from-square {
+  .green {
     color: green;
     font-size: 30px;
   }
