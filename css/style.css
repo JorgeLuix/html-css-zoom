@@ -102,8 +102,13 @@ footer {
 
   }  
   i {
-    padding: 10px;
+  
     align-content: center;
+  }
+
+  .fa-share-from-square {
+    color: green;
+    font-size: 30px;
   }
 
 .fa-chevron-down {
@@ -126,4 +131,11 @@ p{
 #id {
     color: white;
     font-size: 30px;
+}
+
+.button {
+    color: red;
+    background-color: rgb(140, 139, 139);
+    padding: 2rem 2rem;
+    font-size: 10;
 }
